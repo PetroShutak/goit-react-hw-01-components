@@ -7,7 +7,9 @@ export const App = () => {
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
-        color: 'red'
+        color: '#B4AFAF',
+        backgroundColor: '#F6F6F6'
+
       }}
     >
      <>I start to homework in React course</> 
