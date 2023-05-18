@@ -1,9 +1,12 @@
+import { Profile } from './Profile/Profile';
+
 export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
+        // height: '100vh',
         display: 'flex',
+        flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
@@ -11,7 +14,16 @@ export const App = () => {
         backgroundColor: '#F6F6F6',
       }}
     >
-      <p>I start to homework in React course</p>
+      <div>
+        <Profile
+          username={user.username}
+          tag={user.tag}
+          location={user.location}
+          avatar={user.avatar}
+          stats={user.stats}
+        />
+      </div>
+      {/* <p>I start to homework in React course</p> */}
     </div>
   );
 };
