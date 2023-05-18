@@ -8,14 +8,10 @@ export const App = () => {
         alignItems: 'center',
         fontSize: 40,
         color: '#B4AFAF',
-        backgroundColor: '#F6F6F6'
-
+        backgroundColor: '#F6F6F6',
       }}
     >
-     <>I start to homework in React course</> 
-      
+      <p>I start to homework in React course</p>
     </div>
   );
 };
-
-
