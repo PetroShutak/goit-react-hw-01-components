@@ -5,7 +5,8 @@ import './Profile.css';
 // avatar — посилання на зображення
 // stats — об'єкт з інформацією про активності
 
-export function Profile () {
+export function Profile (props) {
+    const {username, tag, location, avatar, stats} = props;
     return (
         <div className="profile">
   <div className="description">
