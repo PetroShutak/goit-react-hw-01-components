@@ -32,17 +32,12 @@
 }
 .stats {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 300px;
     margin-bottom: 20px;
-}
-.stats {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
     list-style: none;
+    gap: 20px;
 }
 
 
