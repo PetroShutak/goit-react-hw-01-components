@@ -9,11 +9,8 @@
   align-items: center;
   margin-bottom: 20px;
 }
-.title {
-  text-align: center;
-  margin-bottom: 20px;
-}
-.stat-list {
+
+.stat_list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,19 +27,7 @@
   border-radius: 5px;
 }
 
-.label {
-  display: inline-block;
-  width: 60px;
-  margin-right: 10px;
-  text-align: center;
-}
 
-.percentage {
-  display: inline-block;
-  width: 60px;
-  margin-right: 10px;
-  text-align: center;
-}
 
 .item:hover,
 .item:focus {

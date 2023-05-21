@@ -13,12 +13,8 @@ export const App = () => {
       style={{
         display: 'flex',
         flexDirection: 'column',
-        gap: 20,
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#B4AFAF',
         backgroundColor: '#F6F6F6',
+        textAlign: 'center',
       }}
     >
       <div>
