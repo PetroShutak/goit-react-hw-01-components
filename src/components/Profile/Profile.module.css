@@ -8,16 +8,17 @@
   background-color: #f5f5f5;
   border-radius: 5px;
   border: 2px solid rgb(9, 16, 110);
+  margin-bottom: 40px;
 }
 
 .profile:hover,
 .profile:focus {
-  cursor: pointer;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
 .description {
   text-align: center;
   margin-bottom: 20px;
+  
 }
 
 .avatar_profile {
@@ -72,6 +73,6 @@
 
 .tag:hover,
 .tag:focus {
-  color: greenyellow;
+  color: green;
   cursor: pointer;
 }

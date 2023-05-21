@@ -12,7 +12,6 @@ export function FriendList ({ friends }) {
     />
   )
   )
-
   return (
     <ul className={css.friend_list}>
       {friendList}

@@ -9,15 +9,9 @@ import transactions from './data/transactions.json';
 
 export const App = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        backgroundColor: '#F6F6F6',
-        textAlign: 'center',
-      }}
-    >
+    <div>
       <div>
+      <h1>"Profile"</h1>
         <Profile
           username={user.username}
           tag={user.tag}
@@ -25,8 +19,11 @@ export const App = () => {
           avatar={user.avatar}
           stats={user.stats}
         />
-        <Statistics stats={data} />
+        <h1>"Statistics"</h1>
+        <Statistics title="Upload stats" stats={data} />
+        <h1>"FriendList"</h1>
         <FriendList friends={friends} />
+        <h1>"TransactionHistory"</h1>
         <TransactionHistory items={transactions} />
       </div>
     </div>
