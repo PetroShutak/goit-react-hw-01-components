@@ -8,7 +8,7 @@
   margin-bottom: 40px;
   flex-direction: column;
   gap: 10px;
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: all ease-in-out 0.3s;
 }
 .item:hover,
 .item:focus {
